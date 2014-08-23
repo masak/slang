@@ -1,5 +1,5 @@
 grammar LolSlang::Grammar {
-    rule statementlist {
+    rule statementlist($) {
         <statement>*
     }
 
