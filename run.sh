@@ -1,1 +1,1 @@
-perl6 -Ilib -e '{ use LolSlang; }'
+perl6 --ll-exception -Ilib -e '{ use LolSlang; }'
