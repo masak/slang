@@ -1,3 +1,5 @@
+use QRegex:from<NQP>;
+
 class LolSlang::Actions {
     method statementlist($/) {
         make QAST::Stmts.new(

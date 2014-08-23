@@ -1,4 +1,5 @@
 use LolSlang::Grammar;
+use LolSlang::Actions;
 
 sub EXPORT(*@a) {
     %*LANG<LolSlang>         := LolSlang::Grammar;
